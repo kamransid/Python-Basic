@@ -51,6 +51,54 @@ mai = 'hana'
 kar = 'hua' 'hai' +mai+ 'kuch bhi hota hai' 
 print(kar)
 
+copy_paste = ('hia'
+  'mai '
+  'bhi'
+  'hoon'
+)
+print(copy_paste)
+
+hal = ('hal'*3) 
+print(hal)
+
+val = 'some string'
+print(val[0])
+c = val[1]
+print(c)
+
+
+print(val[-9])
+print(val[-4])
+
+print(val[-0])
+print(val[0])
+
+word = 'I am here to do programming always till end'
+print(word)
+print(word[-len(word)])
+print(word[len(word)-1])
+print(word[2:5])
+print(word[0:len(word)])
+print('HI'+word[-len(word)-1-4-5-7:4])#all work
+print(word[0:])
+print(word[:])
+print(word[-4:-2])
+
+s = [10,20,30,30,40,50,60,98,-1,0,45]
+s[len(s)] = 'fail'
+print(type(s))
+print(type(s[:]))
+print(len(s))
+print(s.count(30))
+print(reversed(s))
+print(s[0])
+s = reversed(s)
+#print(s.__dir__())
+
+
+
+
+
 
 
 
