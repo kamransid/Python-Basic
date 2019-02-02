@@ -85,20 +85,51 @@ print(word[:])
 print(word[-4:-2])
 
 s = [10,20,30,30,40,50,60,98,-1,0,45]
-s[len(s)] = 'fail'
+
 print(type(s))
 print(type(s[:]))
 print(len(s))
 print(s.count(30))
 print(reversed(s))
 print(s[0])
-s = reversed(s)
+
 #print(s.__dir__())
 
 
+print(s)
+s=s+['aalu',20]
+print(s)
+print(len(s))
+print(s.index(30))
+print(s.index('aalu'))
+if(1): 
+    print('kallu')
+a,b = 4,20
+while(a<10):
+    print(a)
+    a += 1
+
+#fibonacci
+print('*****Fibonacii*****')
+a,b = 0,1
+while a< 10:
+    print(a)
+    a, b = b, a+b
 
 
+l1 = ['a', 'pail', 10]
+l2 = [10,34,'subah']
+final = [l1, l2]
+print(final)
+for x in final:
+    print(x)
 
+for x in final:
+    for y in x:
+        print(y)
+print('*****Range Demo******')
+for r in range(3):
+    print(r)
 
 
 
